@@ -1,0 +1,79 @@
+/* Embedded Fonts */
+@font-face {
+	src:url(../fonts/Roboto.woff) format('woff');
+	font-family: 'Roboto';
+}
+
+@font-face {
+	src: url(../fonts/Newsreader[opsz,wght].ttf) format('truetype');
+	font-family: 'Newsreader';	
+	font-weight: 30 900;
+}
+
+/* Container Items */
+
+.container {
+	width: 336px;
+	height: 280px;
+	border: solid;
+	border-color: darkred;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: url("../images/wine.jpg")no-repeat center fixed;
+	background-size: 100%;
+	background-position: bottom;
+}
+
+.title {
+	font-family: 'Newsreader';
+	letter-spacing: 0.3px;
+	font-size: 28px;
+	text-align: center;
+	color: darkred;
+	position: relative;
+}
+
+.text {
+	font-family: 'Newsreader';
+	font-size: 16px;
+	color: #5e5e5e;
+	line-height: 20px;
+	margin-top: 2px;
+	margin-inline: 8px;
+}
+
+.text1 {
+	font-family: 'Newsreader';
+	font-size: 16px;
+	color: #5e5e5e;
+	line-height: 20px;
+	margin-left: 60%;
+}
+
+.link {
+	font-family: 'Roboto';
+	font-size: 16px;
+	text-align: center;
+	color: darkred;
+	display: block;
+	border: solid 2px #2F0002;
+	width: 150px;
+	line-height: 15px;
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.4s;
+	background: lightgrey;
+	margin-top: 140px;
+	margin-left: 148px;
+	text-align: center;
+	position: relative;
+}
+
+.link:hover {
+	color: white;
+	background: #8B0000;
+	transition: 0.4s;
+}
+
